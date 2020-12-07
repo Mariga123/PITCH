@@ -17,7 +17,7 @@ def index():
 @main.route('/jobs')
 def jobs():
     job = Pitch.query.filter_by(category='Job').all()
-    return render_template('hello.html', job=job)
+    return render_template('pitch.html', job=job)
 
 @main.route('/events')
 def events():
