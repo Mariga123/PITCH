@@ -8,6 +8,13 @@
 * A project for users to add their pitches,comment on other peoples pitches, edit profile and create bio.
 * This will help Users practice on different types of pitches under calculated time,and be professionals during pitch presentation.
 
+### Application Overview
+* Home page Overview
+    <img src="static/photos/home.png">
+
+* Account Overview
+    <img src="./static/photos/account.png"
+
 ## To run my page on your browser,
 
 * Git  clone [https://github.com/Mariga123/PITCH.git] to your terminal
