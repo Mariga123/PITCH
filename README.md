@@ -21,7 +21,16 @@
 * Open the pitch with your text editor.
 * Install necessary requirements as highlighted on [run](**pip install -r requirements.txt**)
 
+### creating a DATABASE
+*   1.Go to your terminal Install postgress bt [run](sudo apt-get install postgresql postgresql-contrib libpq-dev)
+*   2. Open your shell by using **psql**
+*   3. Create database by *CREATE DATABASE pitchy;*
+*   4. Connect to your database by */c pitchy*
+*   5.To view your database structure use *select *from Users;*
+
 * ##### Exporting database configurations
+* export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+
 * Use pip install with the version of your text editor
 * To render the page live locally, run **Python3 manage.py run**
 
