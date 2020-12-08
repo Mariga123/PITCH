@@ -13,7 +13,7 @@
 *   <img src="static/photos/home.png">
 
 * Account Overview
-*  <img src="static/photos/account.png"
+*   <img src="app/static/photos/account.png"
 
 ## To run my page on your browser,
 
