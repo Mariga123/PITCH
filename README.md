@@ -13,11 +13,11 @@
 *   <img src="static/photos/home.png">
 
 * Account Overview
-*   <img src="app/static/photos/account.png"
+*   <img src="static/photos/account.png">
 
 ## To run my page on your browser,
 
-* Git  clone [https://github.com/Mariga123/PITCH.git] to your terminal
+* Git  clone https://github.com/Mariga123/PITCH.git to your terminal
 * Open the pitch with your text editor.
 * Install necessary requirements as highlighted on [run](**pip install -r requirements.txt**)
 
