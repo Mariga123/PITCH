@@ -10,10 +10,10 @@
 
 ### Application Overview
 * Home page Overview
-    <img src="static/photos/home.png">
+    <img src="photos/home.png">
 
 * Account Overview
-    <img src="./static/photos/account.png"
+    <img src="./photos/account.png"
 
 ## To run my page on your browser,
 
