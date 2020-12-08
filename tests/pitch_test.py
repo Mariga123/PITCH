@@ -7,8 +7,8 @@ class PitchTest(unittest.TestCase):
     Test Class to test the behaviour of the Pitch class
     '''
     def setUp(self):
-        self.user_James = User(username = 'mariga',password = 'ze11yjones', email = 'johnmariga8@gmail.com')
-        self.new_comment = Comment(pitch_id=12345,pitch_title='create comment',comment_pitch='web developers are the best',user = self.user_mariga)
+        self.user_mariga = User(username = 'mariga',password = 'ze11yjones', email = 'johnmariga8@gmail.com')
+        self.new_comment = Comment(pitch_id=1234,pitch_title='create comment',comment_pitch='web developers are the best',user = self.user_mariga)
 
     def tearDown(self):
         Pitch.query.delete()
@@ -16,7 +16,7 @@ class PitchTest(unittest.TestCase):
 
     def test_check_instance_variables(self):
         self.assertEquals(self.new_pitch.pitch,'An opening forum for youths')
-        self.assertEquals(self.new_pitch.user,self.user_James)
+        self.assertEquals(self.new_pitch.user,self.user_mariga)
 
     def test_save_pitch(self):
         self.new_pitch.save_pitch()
